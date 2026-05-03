@@ -1,0 +1,5 @@
+C:\Users\petuk\source\repos\OrthoVisionDriver\OrthoVisionDriver\bin\Release\net9.0\publish\win-x64\appsettings.Development.json
+C:\Users\petuk\source\repos\OrthoVisionDriver\OrthoVisionDriver\bin\Release\net9.0\publish\win-x64\appsettings.json
+C:\Users\petuk\source\repos\OrthoVisionDriver\OrthoVisionDriver\bin\Release\net9.0\publish\win-x64\OrthoVisionSettings.json
+C:\Users\petuk\source\repos\OrthoVisionDriver\OrthoVisionDriver\bin\Release\net9.0\publish\win-x64\OrthoVisionDriver.pdb
+C:\Users\petuk\source\repos\OrthoVisionDriver\OrthoVisionDriver\bin\Release\net9.0\publish\win-x64\OrthoVisionDriver.exe

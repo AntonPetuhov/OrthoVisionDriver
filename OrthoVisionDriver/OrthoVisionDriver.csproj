@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-OrthoVisionDriver-9a0f7279-3bb5-4a3d-b449-5e8a39e9d7ad</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.14" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="9.0.14" />
+  </ItemGroup>
+</Project>

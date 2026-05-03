@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37027.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrthoVisionDriver", "OrthoVisionDriver\OrthoVisionDriver.csproj", "{051C55E5-955D-4036-B4BB-5FAAF3F86C80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrthoVision", "OrthoVision\OrthoVision.csproj", "{38BC080E-089D-49FB-BB1B-64C1723085F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{051C55E5-955D-4036-B4BB-5FAAF3F86C80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{051C55E5-955D-4036-B4BB-5FAAF3F86C80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{051C55E5-955D-4036-B4BB-5FAAF3F86C80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{051C55E5-955D-4036-B4BB-5FAAF3F86C80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38BC080E-089D-49FB-BB1B-64C1723085F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38BC080E-089D-49FB-BB1B-64C1723085F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38BC080E-089D-49FB-BB1B-64C1723085F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38BC080E-089D-49FB-BB1B-64C1723085F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12642CE7-88CC-4EA5-97F6-18E470F6420C}
+	EndGlobalSection
+EndGlobal
