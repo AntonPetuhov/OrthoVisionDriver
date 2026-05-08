@@ -15,6 +15,7 @@ namespace OrthoVisionDriver.Interfaces
 
         void LogService(string message);
         void LogTcp(string message);
+        void LogExchange(string message);
         void Log(string message);
     }
 }
