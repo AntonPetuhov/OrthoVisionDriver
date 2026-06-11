@@ -24,5 +24,15 @@ namespace OrthoVisionDriver.Models
         // Папки для сохранения результатов и логов
         public string resultsFolder { get; set; }        // Корневая папка для результатов
         public string logsFolder { get; set; }           // Папка для логов
+
+        // папка службы FileGetterService, которая обрабатывает и записывает результаты в CGM
+        public string outputFolder {  get; set; }  
+        
+        // Строка подключения к БД
+        public string connectionString { get; set; }
+
+        // коды анализатора в CGM Analyzer Congiguration 
+        public string? analyzerCode { get; set; }
+        public string? analyzerConfigurationCode { get; set; }
     }
 }

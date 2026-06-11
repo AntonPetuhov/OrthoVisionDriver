@@ -1,0 +1,163 @@
+26.05.2026 12:21:41: Начало работы обработчика файлов с результатами.
+26.05.2026 12:27:19: C:\Users\anton.petuhov\source\repos\OrthoVisionDriver\OrthoVisionDriver\bin\Debug\net10.0\OrthoVision\Results\Results_2236973300_20260526122719124.res
+26.05.2026 12:27:19: Ошибка: System.IO.IOException: The process cannot access the file 'C:\Users\anton.petuhov\source\repos\OrthoVisionDriver\OrthoVisionDriver\bin\Debug\net10.0\OrthoVision\Results\Results_2236973300_20260526122719124.res' because it is being used by another process.
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Int32 bufferSize)
+   at System.IO.File.ReadAllLines(String path, Encoding encoding)
+   at OrthoVision.OrthoVisionDriver.ResultsHandlerAsync(CancellationToken cancellationToken)
+26.05.2026 12:27:19: C:\Users\anton.petuhov\source\repos\OrthoVisionDriver\OrthoVisionDriver\bin\Debug\net10.0\OrthoVision\Results\Results_2236973300_20260526122719124.res
+26.05.2026 12:27:19: Заявка № 2236973300
+26.05.2026 12:27:19: PSMV2 код: 0703
+26.05.2026 12:27:19: ABO - результат: O
+26.05.2026 12:27:19: PSMV2 код: 0704
+26.05.2026 12:27:19: Rh - результат: POS
+26.05.2026 12:27:19: Заявка № 2236883400
+26.05.2026 12:27:19: Код анализатора ABScr не интерпретирован в PSMV2 код.
+26.05.2026 12:27:19: ABScr - результат: NEG
+26.05.2026 12:27:19: Заявка № 2236883400
+26.05.2026 12:27:19: Код анализатора ABScr не интерпретирован в PSMV2 код.
+26.05.2026 12:27:19: ABScr - результат: NEG
+26.05.2026 12:27:19: Заявка № 2236914500
+26.05.2026 12:27:19: Код анализатора ABScr не интерпретирован в PSMV2 код.
+26.05.2026 12:27:19: ABScr - результат: POS
+26.05.2026 12:27:19: Заявка № 2236914500
+26.05.2026 12:27:19: Код анализатора ABScr не интерпретирован в PSMV2 код.
+26.05.2026 12:27:19: ABScr - результат: POS
+26.05.2026 12:27:19: Заявка № 2236914500
+26.05.2026 12:27:19: Код анализатора ABScr не интерпретирован в PSMV2 код.
+26.05.2026 12:27:19: ABScr - результат: POS
+26.05.2026 12:27:19: Заявка № 2236914500
+26.05.2026 12:27:19: Код анализатора ABScr не интерпретирован в PSMV2 код.
+26.05.2026 12:27:19: ABScr - результат: POS
+26.05.2026 12:27:19: Заявка № 2236914500
+26.05.2026 12:27:19: Код анализатора ABScr не интерпретирован в PSMV2 код.
+26.05.2026 12:27:19: ABScr - результат: POS
+26.05.2026 12:27:19: Заявка № 2236914500
+26.05.2026 12:27:19: Код анализатора ABScr не интерпретирован в PSMV2 код.
+26.05.2026 12:27:19: ABScr - результат: POS
+26.05.2026 12:27:19: Заявка № 2236914500
+26.05.2026 12:27:19: Код анализатора ABScr не интерпретирован в PSMV2 код.
+26.05.2026 12:27:19: ABScr - результат: POS
+26.05.2026 12:27:19: Заявка № 2236914500
+26.05.2026 12:27:19: Код анализатора ABScr не интерпретирован в PSMV2 код.
+26.05.2026 12:27:19: ABScr - результат: POS
+26.05.2026 12:27:19: Заявка № 2236914500
+26.05.2026 12:27:19: Код анализатора ABScr не интерпретирован в PSMV2 код.
+26.05.2026 12:27:19: ABScr - результат: POS
+26.05.2026 12:27:19: Заявка № 2236914500
+26.05.2026 12:27:19: Код анализатора ABScr не интерпретирован в PSMV2 код.
+26.05.2026 12:27:19: ABScr - результат: POS
+26.05.2026 12:27:19: Заявка № 2236914500
+26.05.2026 12:27:19: Код анализатора ABScr не интерпретирован в PSMV2 код.
+26.05.2026 12:27:19: ABScr - результат: POS
+26.05.2026 12:27:19: Заявка № 2236973300
+26.05.2026 12:27:19: PSMV2 код: 0703
+26.05.2026 12:27:19: ABO - результат: O
+26.05.2026 12:27:19: PSMV2 код: 0704
+26.05.2026 12:27:19: Rh - результат: POS
+26.05.2026 12:27:19: Заявка № 2236883400
+26.05.2026 12:27:19: Код анализатора ABScr не интерпретирован в PSMV2 код.
+26.05.2026 12:27:19: ABScr - результат: NEG
+26.05.2026 12:27:19: Заявка № 2236883400
+26.05.2026 12:27:19: Код анализатора ABScr не интерпретирован в PSMV2 код.
+26.05.2026 12:27:19: ABScr - результат: NEG
+26.05.2026 12:27:19: Заявка № 2236883400
+26.05.2026 12:27:19: Код анализатора ABScr не интерпретирован в PSMV2 код.
+26.05.2026 12:27:19: ABScr - результат: NEG
+26.05.2026 12:27:19: Заявка № 2236883400
+26.05.2026 12:27:19: Код анализатора ABScr не интерпретирован в PSMV2 код.
+26.05.2026 12:27:19: ABScr - результат: NEG
+26.05.2026 12:27:19: Заявка № 2236883400
+26.05.2026 12:27:19: Код анализатора ABScr не интерпретирован в PSMV2 код.
+26.05.2026 12:27:19: ABScr - результат: NEG
+26.05.2026 12:27:19: Заявка № 2236914500
+26.05.2026 12:27:19: Код анализатора ABScr не интерпретирован в PSMV2 код.
+26.05.2026 12:27:19: ABScr - результат: POS
+26.05.2026 12:27:19: Заявка № 2236973300
+26.05.2026 12:27:19: Код анализатора DilSeries не интерпретирован в PSMV2 код.
+26.05.2026 12:27:19: DilSeries - результат: Done
+26.05.2026 12:27:19: Заявка № 2236883400
+26.05.2026 12:27:19: Код анализатора ABScr не интерпретирован в PSMV2 код.
+26.05.2026 12:27:19: ABScr - результат: NEG
+26.05.2026 12:27:19: Заявка № 2236973300
+26.05.2026 12:27:19: PSMV2 код: 0703
+26.05.2026 12:27:19: ABO - результат: O
+26.05.2026 12:27:19: PSMV2 код: 0704
+26.05.2026 12:27:19: Rh - результат: POS
+26.05.2026 12:27:19: Заявка № 2236914500
+26.05.2026 12:27:19: Код анализатора ABScr не интерпретирован в PSMV2 код.
+26.05.2026 12:27:19: ABScr - результат: POS
+26.05.2026 12:27:19: Заявка № 2236914500
+26.05.2026 12:27:19: Код анализатора ABScr не интерпретирован в PSMV2 код.
+26.05.2026 12:27:19: ABScr - результат: POS
+26.05.2026 12:27:19: Заявка № 2236914500
+26.05.2026 12:27:19: Код анализатора ABScr не интерпретирован в PSMV2 код.
+26.05.2026 12:27:19: ABScr - результат: POS
+26.05.2026 12:27:19: Заявка № 2236914500
+26.05.2026 12:27:19: Код анализатора ABScr не интерпретирован в PSMV2 код.
+26.05.2026 12:27:19: ABScr - результат: POS
+26.05.2026 12:27:19: Заявка № 2236914500
+26.05.2026 12:27:19: Код анализатора ABScr не интерпретирован в PSMV2 код.
+26.05.2026 12:27:19: ABScr - результат: POS
+26.05.2026 12:27:19: Заявка № 2236883400
+26.05.2026 12:27:19: Код анализатора ABScr не интерпретирован в PSMV2 код.
+26.05.2026 12:27:19: ABScr - результат: NEG
+26.05.2026 12:27:19: Заявка № 2236883400
+26.05.2026 12:27:19: Код анализатора ABScr не интерпретирован в PSMV2 код.
+26.05.2026 12:27:19: ABScr - результат: NEG
+26.05.2026 12:27:19: Заявка № 2236883400
+26.05.2026 12:27:19: Код анализатора ABScr не интерпретирован в PSMV2 код.
+26.05.2026 12:27:19: ABScr - результат: NEG
+26.05.2026 12:27:19: O|1|2236883400||ALL|R|26.05.2026 12:27:19|||||X||||ALL||||||||||FR|1|^^^0703^^^^914|O|||N||F||ORTHOVISION^||20260101000001|914R|1|^^^0704^^^^914|POS|||N||F||ORTHOVISION^||20260101000001|914R|1|^^^0703^^^^914|O|||N||F||ORTHOVISION^||20260101000001|914R|1|^^^0704^^^^914|POS|||N||F||ORTHOVISION^||20260101000001|914R|1|^^^0703^^^^914|O|||N||F||ORTHOVISION^||20260101000001|914R|1|^^^0704^^^^914|POS|||N||F||ORTHOVISION^||20260101000001|914
+26.05.2026 12:27:19: Файл обработан и перемещен в папку Archive
+26.05.2026 12:27:19: 
+26.05.2026 12:38:13: C:\Users\anton.petuhov\source\repos\OrthoVisionDriver\OrthoVisionDriver\bin\Debug\net10.0\OrthoVision\Results\Results_2236973300_20260526121103796.res
+26.05.2026 12:38:13: Заявка № 2236973300
+26.05.2026 12:38:13: PSMV2 код: 0703
+26.05.2026 12:38:13: ABO - результат: O
+26.05.2026 12:38:13: PSMV2 код: 0704
+26.05.2026 12:38:13: Rh - результат: POS
+26.05.2026 12:38:13: O|1|2236973300||ALL|R|26.05.2026 12:38:13|||||X||||ALL||||||||||FR|1|^^^0703^^^^914|O|||N||F||ORTHOVISION^||20260101000001|914R|1|^^^0704^^^^914|POS|||N||F||ORTHOVISION^||20260101000001|914
+26.05.2026 12:38:13: Файл обработан и перемещен в папку Archive
+26.05.2026 12:38:14: 
+26.05.2026 12:44:12: C:\Users\anton.petuhov\source\repos\OrthoVisionDriver\OrthoVisionDriver\bin\Debug\net10.0\OrthoVision\Results\Results_2236973300_20260526124412794.res
+26.05.2026 12:44:12: Заявка № 2236973300
+26.05.2026 12:44:12: PSMV2 код: 0703
+26.05.2026 12:44:12: ABO - результат: O
+26.05.2026 12:44:12: PSMV2 код: 0704
+26.05.2026 12:44:12: Rh - результат: POS
+26.05.2026 12:44:12: O|1|2236973300||ALL|R|26.05.2026 12:44:12|||||X||||ALL||||||||||FR|1|^^^0703^^^^914|O|||N||F||ORTHOVISION^||20260101000001|914R|1|^^^0704^^^^914|POS|||N||F||ORTHOVISION^||20260101000001|914
+26.05.2026 12:44:12: Файл обработан и перемещен в папку Archive
+26.05.2026 12:44:12: 
+26.05.2026 12:44:16: C:\Users\anton.petuhov\source\repos\OrthoVisionDriver\OrthoVisionDriver\bin\Debug\net10.0\OrthoVision\Results\Results_2236883400_20260526124416411.res
+26.05.2026 12:44:16: Заявка № 2236883400
+26.05.2026 12:44:16: Код анализатора ABScr не интерпретирован в PSMV2 код.
+26.05.2026 12:44:16: ABScr - результат: NEG
+26.05.2026 12:44:16: Ошибка обработки файла. Файл перемещен в папку Error
+26.05.2026 12:44:16: 
+26.05.2026 12:44:19: C:\Users\anton.petuhov\source\repos\OrthoVisionDriver\OrthoVisionDriver\bin\Debug\net10.0\OrthoVision\Results\Results_2236914500_20260526124419441.res
+26.05.2026 12:44:19: Заявка № 2236914500
+26.05.2026 12:44:19: Код анализатора ABScr не интерпретирован в PSMV2 код.
+26.05.2026 12:44:19: ABScr - результат: POS
+26.05.2026 12:44:19: Ошибка обработки файла. Файл перемещен в папку Error
+26.05.2026 12:44:19: 
+26.05.2026 12:44:23: C:\Users\anton.petuhov\source\repos\OrthoVisionDriver\OrthoVisionDriver\bin\Debug\net10.0\OrthoVision\Results\Results_2236973300_20260526124423855.res
+26.05.2026 12:44:23: Заявка № 2236973300
+26.05.2026 12:44:23: Код анализатора DilSeries не интерпретирован в PSMV2 код.
+26.05.2026 12:44:23: DilSeries - результат: Done
+26.05.2026 12:44:23: Ошибка обработки файла. Файл перемещен в папку Error
+26.05.2026 12:44:23: 
+26.05.2026 12:44:29: C:\Users\anton.petuhov\source\repos\OrthoVisionDriver\OrthoVisionDriver\bin\Debug\net10.0\OrthoVision\Results\Results_2236973300_20260526124429972.res
+26.05.2026 12:44:30: Ошибка: System.IO.IOException: The process cannot access the file 'C:\Users\anton.petuhov\source\repos\OrthoVisionDriver\OrthoVisionDriver\bin\Debug\net10.0\OrthoVision\Results\Results_2236973300_20260526124429972.res' because it is being used by another process.
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Int32 bufferSize)
+   at System.IO.File.ReadAllLines(String path, Encoding encoding)
+   at OrthoVision.OrthoVisionDriver.ResultsHandlerAsync(CancellationToken cancellationToken)
+26.05.2026 12:44:30: C:\Users\anton.petuhov\source\repos\OrthoVisionDriver\OrthoVisionDriver\bin\Debug\net10.0\OrthoVision\Results\Results_2236973300_20260526124429972.res
+26.05.2026 12:44:30: Заявка № 2236973300
+26.05.2026 12:44:30: Код анализатора DilSeries не интерпретирован в PSMV2 код.
+26.05.2026 12:44:30: DilSeries - результат: Done
+26.05.2026 12:44:30: Ошибка обработки файла. Файл перемещен в папку Error
+26.05.2026 12:44:30: 

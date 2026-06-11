@@ -20,6 +20,9 @@ namespace OrthoVisionDriver.Interfaces
         //Task StopCommunicationAsync(CancellationToken cancellationToken);
         Task StopCommunicationAsync();
 
+        // Обработка результатов
+        Task ResultsHandlerAsync(CancellationToken cancellationToken);
+
         // Освобождение ресурсов
         void Dispose();
 

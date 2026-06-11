@@ -73,6 +73,8 @@ namespace OrthoVisionDriver
                         if (analyzerSettings.resultHandlerStatus)
                         {
                             // здесь будет поток обработки файлов с результатами
+                            resultHandlerTask = Task.Run(() => RunResultHandlerLoop(cts.Token), cts.Token); // передаем токен отмены во внешний метод
+                            logger.LogService("Поток обработки результатов запущен.");
                         }
 
                         // Запускаем мониторинг потоков
@@ -126,7 +128,19 @@ namespace OrthoVisionDriver
         #region Цикл обработки результатов
         private async Task RunResultHandlerLoop(CancellationToken ct)
         {
-
+            try
+            {
+                logger.LogService("Запускаем Цикл обработки результатов...");
+                await driver.ResultsHandlerAsync(ct); // бесконечный цикл внутри
+            }
+            catch (OperationCanceledException)
+            {
+                logger.LogService("Цикл обработки результатов остановлен");
+            }
+            catch (Exception ex)
+            {
+                logger.LogService($"Ошибка при запуске цикла обработки результатов. {ex}");
+            }
         }
         #endregion
 

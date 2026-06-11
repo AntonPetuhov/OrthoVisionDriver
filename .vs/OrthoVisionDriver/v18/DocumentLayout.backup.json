@@ -3,52 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\anton.petuhov\\source\\repos\\OrthoVisionDriver\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{38BC080E-089D-49FB-BB1B-64C1723085F9}|OrthoVision\\OrthoVision.csproj|c:\\users\\anton.petuhov\\source\\repos\\orthovisiondriver\\orthovision\\orthovisiondriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38BC080E-089D-49FB-BB1B-64C1723085F9}|OrthoVision\\OrthoVision.csproj|solutionrelative:orthovision\\orthovisiondriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38BC080E-089D-49FB-BB1B-64C1723085F9}|OrthoVision\\OrthoVision.csproj|c:\\users\\anton.petuhov\\source\\repos\\orthovisiondriver\\orthovision\\dbprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BC080E-089D-49FB-BB1B-64C1723085F9}|OrthoVision\\OrthoVision.csproj|solutionrelative:orthovision\\dbprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38BC080E-089D-49FB-BB1B-64C1723085F9}|OrthoVision\\OrthoVision.csproj|c:\\users\\anton.petuhov\\source\\repos\\orthovisiondriver\\orthovision\\orthovision.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{38BC080E-089D-49FB-BB1B-64C1723085F9}|OrthoVision\\OrthoVision.csproj|solutionrelative:orthovision\\orthovision.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{38BC080E-089D-49FB-BB1B-64C1723085F9}|OrthoVision\\OrthoVision.csproj|c:\\users\\anton.petuhov\\source\\repos\\orthovisiondriver\\orthovision\\resultshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BC080E-089D-49FB-BB1B-64C1723085F9}|OrthoVision\\OrthoVision.csproj|solutionrelative:orthovision\\resultshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38BC080E-089D-49FB-BB1B-64C1723085F9}|OrthoVision\\OrthoVision.csproj|c:\\users\\anton.petuhov\\source\\repos\\orthovisiondriver\\orthovision\\orthovision.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{38BC080E-089D-49FB-BB1B-64C1723085F9}|OrthoVision\\OrthoVision.csproj|solutionrelative:orthovision\\orthovision.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{051C55E5-955D-4036-B4BB-5FAAF3F86C80}|OrthoVisionDriver\\OrthoVisionDriver.csproj|c:\\users\\anton.petuhov\\source\\repos\\orthovisiondriver\\orthovisiondriver\\orthovisionsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{051C55E5-955D-4036-B4BB-5FAAF3F86C80}|OrthoVisionDriver\\OrthoVisionDriver.csproj|solutionrelative:orthovisiondriver\\orthovisionsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{051C55E5-955D-4036-B4BB-5FAAF3F86C80}|OrthoVisionDriver\\OrthoVisionDriver.csproj|c:\\users\\anton.petuhov\\source\\repos\\orthovisiondriver\\orthovisiondriver\\analyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{051C55E5-955D-4036-B4BB-5FAAF3F86C80}|OrthoVisionDriver\\OrthoVisionDriver.csproj|solutionrelative:orthovisiondriver\\analyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{051C55E5-955D-4036-B4BB-5FAAF3F86C80}|OrthoVisionDriver\\OrthoVisionDriver.csproj|c:\\users\\anton.petuhov\\source\\repos\\orthovisiondriver\\orthovisiondriver\\models\\analyzersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{051C55E5-955D-4036-B4BB-5FAAF3F86C80}|OrthoVisionDriver\\OrthoVisionDriver.csproj|solutionrelative:orthovisiondriver\\models\\analyzersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{051C55E5-955D-4036-B4BB-5FAAF3F86C80}|OrthoVisionDriver\\OrthoVisionDriver.csproj|c:\\users\\anton.petuhov\\source\\repos\\orthovisiondriver\\orthovisiondriver\\interfaces\\iloggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{051C55E5-955D-4036-B4BB-5FAAF3F86C80}|OrthoVisionDriver\\OrthoVisionDriver.csproj|solutionrelative:orthovisiondriver\\interfaces\\iloggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38BC080E-089D-49FB-BB1B-64C1723085F9}|OrthoVision\\OrthoVision.csproj|c:\\users\\anton.petuhov\\source\\repos\\orthovisiondriver\\orthovision\\orthovisiondriver_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BC080E-089D-49FB-BB1B-64C1723085F9}|OrthoVision\\OrthoVision.csproj|solutionrelative:orthovision\\orthovisiondriver_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{051C55E5-955D-4036-B4BB-5FAAF3F86C80}|OrthoVisionDriver\\OrthoVisionDriver.csproj|c:\\users\\anton.petuhov\\source\\repos\\orthovisiondriver\\orthovisiondriver\\services\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{051C55E5-955D-4036-B4BB-5FAAF3F86C80}|OrthoVisionDriver\\OrthoVisionDriver.csproj|solutionrelative:orthovisiondriver\\services\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{051C55E5-955D-4036-B4BB-5FAAF3F86C80}|OrthoVisionDriver\\OrthoVisionDriver.csproj|c:\\users\\anton.petuhov\\source\\repos\\orthovisiondriver\\orthovisiondriver\\interfaces\\ianalyzerdriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{051C55E5-955D-4036-B4BB-5FAAF3F86C80}|OrthoVisionDriver\\OrthoVisionDriver.csproj|solutionrelative:orthovisiondriver\\interfaces\\ianalyzerdriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38BC080E-089D-49FB-BB1B-64C1723085F9}|OrthoVision\\OrthoVision.csproj|c:\\users\\anton.petuhov\\source\\repos\\orthovisiondriver\\orthovision\\orthovisiondriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BC080E-089D-49FB-BB1B-64C1723085F9}|OrthoVision\\OrthoVision.csproj|solutionrelative:orthovision\\orthovisiondriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{051C55E5-955D-4036-B4BB-5FAAF3F86C80}|OrthoVisionDriver\\OrthoVisionDriver.csproj|c:\\users\\anton.petuhov\\source\\repos\\orthovisiondriver\\orthovisiondriver\\analyzermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{051C55E5-955D-4036-B4BB-5FAAF3F86C80}|OrthoVisionDriver\\OrthoVisionDriver.csproj|solutionrelative:orthovisiondriver\\analyzermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38BC080E-089D-49FB-BB1B-64C1723085F9}|OrthoVision\\OrthoVision.csproj|c:\\users\\anton.petuhov\\source\\repos\\orthovisiondriver\\orthovision\\interfaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BC080E-089D-49FB-BB1B-64C1723085F9}|OrthoVision\\OrthoVision.csproj|solutionrelative:orthovision\\interfaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{051C55E5-955D-4036-B4BB-5FAAF3F86C80}|OrthoVisionDriver\\OrthoVisionDriver.csproj|c:\\users\\anton.petuhov\\source\\repos\\orthovisiondriver\\orthovisiondriver\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{051C55E5-955D-4036-B4BB-5FAAF3F86C80}|OrthoVisionDriver\\OrthoVisionDriver.csproj|solutionrelative:orthovisiondriver\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38BC080E-089D-49FB-BB1B-64C1723085F9}|OrthoVision\\OrthoVision.csproj|c:\\users\\anton.petuhov\\source\\repos\\orthovisiondriver\\orthovision\\astmprotocolparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BC080E-089D-49FB-BB1B-64C1723085F9}|OrthoVision\\OrthoVision.csproj|solutionrelative:orthovision\\astmprotocolparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{051C55E5-955D-4036-B4BB-5FAAF3F86C80}|OrthoVisionDriver\\OrthoVisionDriver.csproj|c:\\users\\anton.petuhov\\source\\repos\\orthovisiondriver\\orthovisiondriver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{051C55E5-955D-4036-B4BB-5FAAF3F86C80}|OrthoVisionDriver\\OrthoVisionDriver.csproj|solutionrelative:orthovisiondriver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{051C55E5-955D-4036-B4BB-5FAAF3F86C80}|OrthoVisionDriver\\OrthoVisionDriver.csproj|c:\\users\\anton.petuhov\\source\\repos\\orthovisiondriver\\orthovisiondriver\\orthovisionsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{051C55E5-955D-4036-B4BB-5FAAF3F86C80}|OrthoVisionDriver\\OrthoVisionDriver.csproj|solutionrelative:orthovisiondriver\\orthovisionsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{051C55E5-955D-4036-B4BB-5FAAF3F86C80}|OrthoVisionDriver\\OrthoVisionDriver.csproj|c:\\users\\anton.petuhov\\source\\repos\\orthovisiondriver\\orthovisiondriver\\models\\analyzersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{051C55E5-955D-4036-B4BB-5FAAF3F86C80}|OrthoVisionDriver\\OrthoVisionDriver.csproj|solutionrelative:orthovisiondriver\\models\\analyzersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{051C55E5-955D-4036-B4BB-5FAAF3F86C80}|OrthoVisionDriver\\OrthoVisionDriver.csproj|c:\\users\\anton.petuhov\\source\\repos\\orthovisiondriver\\orthovisiondriver\\analyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{051C55E5-955D-4036-B4BB-5FAAF3F86C80}|OrthoVisionDriver\\OrthoVisionDriver.csproj|solutionrelative:orthovisiondriver\\analyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,23 +50,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrthoVision",
-              "DocumentMoniker": "C:\\Users\\anton.petuhov\\source\\repos\\OrthoVisionDriver\\OrthoVision\\OrthoVision.csproj",
-              "RelativeDocumentMoniker": "OrthoVision\\OrthoVision.csproj",
-              "ToolTip": "C:\\Users\\anton.petuhov\\source\\repos\\OrthoVisionDriver\\OrthoVision\\OrthoVision.csproj",
-              "RelativeToolTip": "OrthoVision\\OrthoVision.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-05-05T13:02:59.248Z",
+              "DocumentIndex": 3,
+              "Title": "Logger.cs",
+              "DocumentMoniker": "C:\\Users\\anton.petuhov\\source\\repos\\OrthoVisionDriver\\OrthoVisionDriver\\Services\\Logger.cs",
+              "RelativeDocumentMoniker": "OrthoVisionDriver\\Services\\Logger.cs",
+              "ToolTip": "C:\\Users\\anton.petuhov\\source\\repos\\OrthoVisionDriver\\OrthoVisionDriver\\Services\\Logger.cs",
+              "RelativeToolTip": "OrthoVisionDriver\\Services\\Logger.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T07:51:06.493Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "ResultsHandler.cs",
+              "DocumentMoniker": "C:\\Users\\anton.petuhov\\source\\repos\\OrthoVisionDriver\\OrthoVision\\ResultsHandler.cs",
+              "RelativeDocumentMoniker": "OrthoVision\\ResultsHandler.cs",
+              "ToolTip": "C:\\Users\\anton.petuhov\\source\\repos\\OrthoVisionDriver\\OrthoVision\\ResultsHandler.cs",
+              "RelativeToolTip": "OrthoVision\\ResultsHandler.cs",
+              "ViewState": "AgIAALYAAAAAAAAAAAAwwNcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T14:05:01.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DBProvider.cs",
+              "DocumentMoniker": "C:\\Users\\anton.petuhov\\source\\repos\\OrthoVisionDriver\\OrthoVision\\DBProvider.cs",
+              "RelativeDocumentMoniker": "OrthoVision\\DBProvider.cs",
+              "ToolTip": "C:\\Users\\anton.petuhov\\source\\repos\\OrthoVisionDriver\\OrthoVision\\DBProvider.cs",
+              "RelativeToolTip": "OrthoVision\\DBProvider.cs",
+              "ViewState": "AgIAAK0AAAAAAAAAAAAwwLsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T07:36:04.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "OrthoVisionSettings.json",
               "DocumentMoniker": "C:\\Users\\anton.petuhov\\source\\repos\\OrthoVisionDriver\\OrthoVisionDriver\\OrthoVisionSettings.json",
               "RelativeDocumentMoniker": "OrthoVisionDriver\\OrthoVisionSettings.json",
@@ -82,134 +101,106 @@
               "RelativeToolTip": "OrthoVisionDriver\\OrthoVisionSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-05T13:02:16.46Z",
+              "WhenOpened": "2026-06-09T12:25:30.927Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AnalyzerSettings.cs",
-              "DocumentMoniker": "C:\\Users\\anton.petuhov\\source\\repos\\OrthoVisionDriver\\OrthoVisionDriver\\Models\\AnalyzerSettings.cs",
-              "RelativeDocumentMoniker": "OrthoVisionDriver\\Models\\AnalyzerSettings.cs",
-              "ToolTip": "C:\\Users\\anton.petuhov\\source\\repos\\OrthoVisionDriver\\OrthoVisionDriver\\Models\\AnalyzerSettings.cs",
-              "RelativeToolTip": "OrthoVisionDriver\\Models\\AnalyzerSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T14:12:48.125Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ILoggerService.cs",
-              "DocumentMoniker": "C:\\Users\\anton.petuhov\\source\\repos\\OrthoVisionDriver\\OrthoVisionDriver\\Interfaces\\ILoggerService.cs",
-              "RelativeDocumentMoniker": "OrthoVisionDriver\\Interfaces\\ILoggerService.cs",
-              "ToolTip": "C:\\Users\\anton.petuhov\\source\\repos\\OrthoVisionDriver\\OrthoVisionDriver\\Interfaces\\ILoggerService.cs",
-              "RelativeToolTip": "OrthoVisionDriver\\Interfaces\\ILoggerService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T11:07:44.227Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Logger.cs",
-              "DocumentMoniker": "C:\\Users\\anton.petuhov\\source\\repos\\OrthoVisionDriver\\OrthoVisionDriver\\Services\\Logger.cs",
-              "RelativeDocumentMoniker": "OrthoVisionDriver\\Services\\Logger.cs",
-              "ToolTip": "C:\\Users\\anton.petuhov\\source\\repos\\OrthoVisionDriver\\OrthoVisionDriver\\Services\\Logger.cs",
-              "RelativeToolTip": "OrthoVisionDriver\\Services\\Logger.cs",
-              "ViewState": "AgIAAI4AAAAAAAAAAAAAADoAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T08:06:25.179Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\anton.petuhov\\source\\repos\\OrthoVisionDriver\\OrthoVisionDriver\\Program.cs",
-              "RelativeDocumentMoniker": "OrthoVisionDriver\\Program.cs",
-              "ToolTip": "C:\\Users\\anton.petuhov\\source\\repos\\OrthoVisionDriver\\OrthoVisionDriver\\Program.cs",
-              "RelativeToolTip": "OrthoVisionDriver\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T08:06:25.463Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Analyzer.cs",
-              "DocumentMoniker": "C:\\Users\\anton.petuhov\\source\\repos\\OrthoVisionDriver\\OrthoVisionDriver\\Analyzer.cs",
-              "RelativeDocumentMoniker": "OrthoVisionDriver\\Analyzer.cs",
-              "ToolTip": "C:\\Users\\anton.petuhov\\source\\repos\\OrthoVisionDriver\\OrthoVisionDriver\\Analyzer.cs",
-              "RelativeToolTip": "OrthoVisionDriver\\Analyzer.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T08:06:25.478Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IAnalyzerDriver.cs",
-              "DocumentMoniker": "C:\\Users\\anton.petuhov\\source\\repos\\OrthoVisionDriver\\OrthoVisionDriver\\Interfaces\\IAnalyzerDriver.cs",
-              "RelativeDocumentMoniker": "OrthoVisionDriver\\Interfaces\\IAnalyzerDriver.cs",
-              "ToolTip": "C:\\Users\\anton.petuhov\\source\\repos\\OrthoVisionDriver\\OrthoVisionDriver\\Interfaces\\IAnalyzerDriver.cs",
-              "RelativeToolTip": "OrthoVisionDriver\\Interfaces\\IAnalyzerDriver.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T08:06:25.483Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AnalyzerManager.cs",
-              "DocumentMoniker": "C:\\Users\\anton.petuhov\\source\\repos\\OrthoVisionDriver\\OrthoVisionDriver\\AnalyzerManager.cs",
-              "RelativeDocumentMoniker": "OrthoVisionDriver\\AnalyzerManager.cs",
-              "ToolTip": "C:\\Users\\anton.petuhov\\source\\repos\\OrthoVisionDriver\\OrthoVisionDriver\\AnalyzerManager.cs",
-              "RelativeToolTip": "OrthoVisionDriver\\AnalyzerManager.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAQwCQAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T08:06:25.49Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "OrthoVisionDriver.cs",
               "DocumentMoniker": "C:\\Users\\anton.petuhov\\source\\repos\\OrthoVisionDriver\\OrthoVision\\OrthoVisionDriver.cs",
               "RelativeDocumentMoniker": "OrthoVision\\OrthoVisionDriver.cs",
               "ToolTip": "C:\\Users\\anton.petuhov\\source\\repos\\OrthoVisionDriver\\OrthoVision\\OrthoVisionDriver.cs",
               "RelativeToolTip": "OrthoVision\\OrthoVisionDriver.cs",
-              "ViewState": "AgIAAIkAAAAAAAAAAADgv8gAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAOIAAAAAAAAAAAAuwP8AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T08:06:25.502Z",
+              "WhenOpened": "2026-06-03T13:13:28.5Z",
               "EditorCaption": ""
             },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Analyzer.cs",
+              "DocumentMoniker": "C:\\Users\\anton.petuhov\\source\\repos\\OrthoVisionDriver\\OrthoVisionDriver\\Analyzer.cs",
+              "RelativeDocumentMoniker": "OrthoVisionDriver\\Analyzer.cs",
+              "ToolTip": "C:\\Users\\anton.petuhov\\source\\repos\\OrthoVisionDriver\\OrthoVisionDriver\\Analyzer.cs",
+              "RelativeToolTip": "OrthoVisionDriver\\Analyzer.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAwwIUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T11:36:45.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AnalyzerSettings.cs",
+              "DocumentMoniker": "C:\\Users\\anton.petuhov\\source\\repos\\OrthoVisionDriver\\OrthoVisionDriver\\Models\\AnalyzerSettings.cs",
+              "RelativeDocumentMoniker": "OrthoVisionDriver\\Models\\AnalyzerSettings.cs",
+              "ToolTip": "C:\\Users\\anton.petuhov\\source\\repos\\OrthoVisionDriver\\OrthoVisionDriver\\Models\\AnalyzerSettings.cs",
+              "RelativeToolTip": "OrthoVisionDriver\\Models\\AnalyzerSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T08:01:14.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AstmProtocolParser.cs",
+              "DocumentMoniker": "C:\\Users\\anton.petuhov\\source\\repos\\OrthoVisionDriver\\OrthoVision\\AstmProtocolParser.cs",
+              "RelativeDocumentMoniker": "OrthoVision\\AstmProtocolParser.cs",
+              "ToolTip": "C:\\Users\\anton.petuhov\\source\\repos\\OrthoVisionDriver\\OrthoVision\\AstmProtocolParser.cs",
+              "RelativeToolTip": "OrthoVision\\AstmProtocolParser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T20:23:21.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Interfaces.cs",
+              "DocumentMoniker": "C:\\Users\\anton.petuhov\\source\\repos\\OrthoVisionDriver\\OrthoVision\\Interfaces.cs",
+              "RelativeDocumentMoniker": "OrthoVision\\Interfaces.cs",
+              "ToolTip": "C:\\Users\\anton.petuhov\\source\\repos\\OrthoVisionDriver\\OrthoVision\\Interfaces.cs",
+              "RelativeToolTip": "OrthoVision\\Interfaces.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T20:21:37.362Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "d04f63ae-4c4a-4d1c-aae3-2ffe67f3365e",
+        "Display": 1,
+        "X": 117,
+        "Y": 66,
+        "Width": 1578,
+        "Height": 795,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "OrthoVision",
-              "DocumentMoniker": "C:\\Users\\anton.petuhov\\source\\repos\\OrthoVisionDriver\\OrthoVision\\OrthoVision.csproj",
-              "RelativeDocumentMoniker": "OrthoVision\\OrthoVision.csproj",
-              "ToolTip": "C:\\Users\\anton.petuhov\\source\\repos\\OrthoVisionDriver\\OrthoVision\\OrthoVision.csproj",
-              "RelativeToolTip": "OrthoVision\\OrthoVision.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-05-05T13:02:51.932Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Worker.cs",
-              "DocumentMoniker": "C:\\Users\\anton.petuhov\\source\\repos\\OrthoVisionDriver\\OrthoVisionDriver\\Worker.cs",
-              "RelativeDocumentMoniker": "OrthoVisionDriver\\Worker.cs",
-              "ToolTip": "C:\\Users\\anton.petuhov\\source\\repos\\OrthoVisionDriver\\OrthoVisionDriver\\Worker.cs",
-              "RelativeToolTip": "OrthoVisionDriver\\Worker.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAYwDgAAABEAAAAAAAAAA==",
+              "Title": "OrthoVisionDriver_.cs",
+              "DocumentMoniker": "C:\\Users\\anton.petuhov\\source\\repos\\OrthoVisionDriver\\OrthoVision\\OrthoVisionDriver_.cs",
+              "RelativeDocumentMoniker": "OrthoVision\\OrthoVisionDriver_.cs",
+              "ToolTip": "C:\\Users\\anton.petuhov\\source\\repos\\OrthoVisionDriver\\OrthoVision\\OrthoVisionDriver_.cs",
+              "RelativeToolTip": "OrthoVision\\OrthoVisionDriver_.cs",
+              "ViewState": "AgIAAEcDAAAAAAAAAAAswEoDAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T08:06:25.495Z"
+              "WhenOpened": "2026-05-04T08:06:25.502Z",
+              "EditorCaption": ""
             }
           ]
         }

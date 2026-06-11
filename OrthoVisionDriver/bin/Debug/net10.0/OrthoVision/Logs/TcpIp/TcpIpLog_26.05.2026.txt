@@ -1,0 +1,29 @@
+26.05.2026 12:21:41: Начало работы TCP сервера анализатора.
+26.05.2026 12:21:41: TCP сервер запущен на порту 8026. Ожидание подключений...
+26.05.2026 12:27:14: Входящее подключение: 10.129.21.116:50352
+26.05.2026 12:27:14: Клиент подключен: 10.129.21.116:50352
+26.05.2026 12:27:14: Состояние и свойства TCP-сервера. Available: 0, LocalEndPoint: 10.129.1.40:8026, RemoteEndPoint: 10.129.21.116:50352,Blocking: True, Connected: True, Client.Connected: True, SelectRead: False,SelectWrite: True;SelectError: False;
+26.05.2026 12:27:19: Входящее подключение: 10.129.21.116:50353
+26.05.2026 12:27:19: Клиент подключен: 10.129.21.116:50353
+26.05.2026 12:27:19: Состояние и свойства TCP-сервера. Available: 0, LocalEndPoint: 10.129.1.40:8026, RemoteEndPoint: 10.129.21.116:50353,Blocking: True, Connected: True, Client.Connected: True, SelectRead: False,SelectWrite: True;SelectError: False;
+26.05.2026 12:43:54: Входящее подключение: 10.129.21.116:50361
+26.05.2026 12:43:54: Клиент подключен: 10.129.21.116:50361
+26.05.2026 12:43:54: Состояние и свойства TCP-сервера. Available: 0, LocalEndPoint: 10.129.1.40:8026, RemoteEndPoint: 10.129.21.116:50361,Blocking: True, Connected: True, Client.Connected: True, SelectRead: False,SelectWrite: True;SelectError: False;
+26.05.2026 12:44:12: Входящее подключение: 10.129.21.116:50362
+26.05.2026 12:44:12: Клиент подключен: 10.129.21.116:50362
+26.05.2026 12:44:12: Состояние и свойства TCP-сервера. Available: 0, LocalEndPoint: 10.129.1.40:8026, RemoteEndPoint: 10.129.21.116:50362,Blocking: True, Connected: True, Client.Connected: True, SelectRead: False,SelectWrite: True;SelectError: False;
+26.05.2026 12:44:16: Входящее подключение: 10.129.21.116:50363
+26.05.2026 12:44:16: Клиент подключен: 10.129.21.116:50363
+26.05.2026 12:44:16: Состояние и свойства TCP-сервера. Available: 0, LocalEndPoint: 10.129.1.40:8026, RemoteEndPoint: 10.129.21.116:50363,Blocking: True, Connected: True, Client.Connected: True, SelectRead: False,SelectWrite: True;SelectError: False;
+26.05.2026 12:44:19: Входящее подключение: 10.129.21.116:50364
+26.05.2026 12:44:19: Клиент подключен: 10.129.21.116:50364
+26.05.2026 12:44:19: Состояние и свойства TCP-сервера. Available: 0, LocalEndPoint: 10.129.1.40:8026, RemoteEndPoint: 10.129.21.116:50364,Blocking: True, Connected: True, Client.Connected: True, SelectRead: False,SelectWrite: True;SelectError: False;
+26.05.2026 12:44:23: Входящее подключение: 10.129.21.116:50365
+26.05.2026 12:44:23: Клиент подключен: 10.129.21.116:50365
+26.05.2026 12:44:23: Состояние и свойства TCP-сервера. Available: 0, LocalEndPoint: 10.129.1.40:8026, RemoteEndPoint: 10.129.21.116:50365,Blocking: True, Connected: True, Client.Connected: True, SelectRead: False,SelectWrite: True;SelectError: False;
+26.05.2026 12:44:30: Входящее подключение: 10.129.21.116:50366
+26.05.2026 12:44:30: Клиент подключен: 10.129.21.116:50366
+26.05.2026 12:44:30: Состояние и свойства TCP-сервера. Available: 0, LocalEndPoint: 10.129.1.40:8026, RemoteEndPoint: 10.129.21.116:50366,Blocking: True, Connected: True, Client.Connected: True, SelectRead: False,SelectWrite: True;SelectError: False;
+26.05.2026 12:45:10: Входящее подключение: 10.129.21.116:50367
+26.05.2026 12:45:10: Клиент подключен: 10.129.21.116:50367
+26.05.2026 12:45:10: Состояние и свойства TCP-сервера. Available: 0, LocalEndPoint: 10.129.1.40:8026, RemoteEndPoint: 10.129.21.116:50367,Blocking: True, Connected: True, Client.Connected: True, SelectRead: False,SelectWrite: True;SelectError: False;

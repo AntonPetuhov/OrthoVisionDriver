@@ -232,3 +232,6 @@ C:\Users\petuk\source\repos\OrthoVisionDriver\OrthoVisionDriver\bin\Release\net9
 C:\Users\petuk\source\repos\OrthoVisionDriver\OrthoVisionDriver\bin\Release\net9.0\win-x64\mscordbi.dll
 C:\Users\petuk\source\repos\OrthoVisionDriver\OrthoVisionDriver\bin\Release\net9.0\win-x64\mscorrc.dll
 C:\Users\petuk\source\repos\OrthoVisionDriver\OrthoVisionDriver\bin\Release\net9.0\win-x64\msquic.dll
+C:\Users\anton.petuhov\source\repos\OrthoVisionDriver\OrthoVisionDriver\obj\Release\net9.0\win-x64\OrthoVisionDriver.dll
+C:\Users\anton.petuhov\source\repos\OrthoVisionDriver\OrthoVisionDriver\obj\Release\net9.0\win-x64\refint\OrthoVisionDriver.dll
+C:\Users\anton.petuhov\source\repos\OrthoVisionDriver\OrthoVisionDriver\obj\Release\net9.0\win-x64\OrthoVisionDriver.pdb
