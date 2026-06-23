@@ -131,7 +131,8 @@ namespace OrthoVisionDriver
             try
             {
                 logger.LogService("Запускаем Цикл обработки результатов...");
-                await driver.ResultsHandlerAsync(ct); // бесконечный цикл внутри
+                // обработку резултьтатов добаивть непосредственно  вдрайвере
+                //await driver.ResultsHandlerAsync(ct); // бесконечный цикл внутри
             }
             catch (OperationCanceledException)
             {

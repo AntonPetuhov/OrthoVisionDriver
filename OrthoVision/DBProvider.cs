@@ -28,8 +28,11 @@ namespace OrthoVision
     {
         private readonly ILoggerService logger;
 
-        private readonly string user = "mielogrammauser";
-        private readonly string password = "Qw123456";
+        //private readonly string user = "mielogrammauser";
+        //private readonly string password = "Qw123456";
+
+        private readonly string user = "PSMExchangeUser";
+        private readonly string password = "PSM_123456";
 
         private readonly string connectionString;
         private readonly string analyzerCode = "914";                   // код из аналайзер конфигурейшн, который связывает прибор в PSMV2 ;
@@ -41,6 +44,9 @@ namespace OrthoVision
         {
             this.logger = logger;
             this.connectionString = string.Concat(connectionString, $"User Id = {user}; Password = {password}");//connectionString;
+
+            string connectionString_test = "Server=CGM-APP11\\SQLCGMAPP11;Database=KDLPROD;MultipleActiveResultSets=true;TrustServerCertificate=True;";
+            this.connectionString = string.Concat(connectionString_test, $"User Id = {user}; Password = {password}");
         }
 
         /// <summary>
@@ -90,14 +96,22 @@ namespace OrthoVision
 
             bool RIDExists = false;
 
+            logger.LogExchange($"GetRequestFromDB {RID}");
+
             try
             {
                 using (SqlConnection Connection = new SqlConnection(connectionString))
                 {
+                    logger.LogExchange($"GetRequestFromDB {RID}");
+
+                    logger.LogExchange($"{connectionString}");
+
                     Connection.Open();
+
+                    logger.LogExchange($"connection oprn");
                     #region ищем RID и получаем данные по нему из БД
                     //ищем RID в базе
-                    SqlCommand RequetDataCommand = new SqlCommand(
+                    SqlCommand RequestDataCommand = new SqlCommand(
                        "SELECT TOP 1" +
                          "p.pop_pid AS PID, p.pop_enamn AS PatientSurname, p.pop_fnamn AS PatientName, p.pop_fdatum AS PatientBirthday, " +
                          "CASE WHEN p.pop_kon = 'K' THEN 'F' ELSE 'M' END AS PatientSex, " +
@@ -107,16 +121,22 @@ namespace OrthoVision
                        "WHERE r.rem_deaktiv = 'O' " +
                          $"AND r.rem_rid IN ('{RID}') " +
                          "AND r.rem_ank_dttm IS NOT NULL ", Connection);
-                    SqlDataReader Reader = RequetDataCommand.ExecuteReader();
+
+                    SqlDataReader Reader = RequestDataCommand.ExecuteReader();
+
+                    logger.LogExchange($"Reader.HasRows {Reader.HasRows}");
+
 
                     // если такой ШК есть
                     if (Reader.HasRows)
                     {
                         RIDExists = true;
+
+                        logger.LogExchange($"RIDExists {RIDExists}");
                         // получаем данные по заявке
                         while (Reader.Read())
                         {
-                            if (!Reader.IsDBNull(0)) { order_data.pid = Reader.GetString(0); }
+                            if (!Reader.IsDBNull(0)) { order_data.pid = Reader.GetString(0); logger.LogExchange($"order_data.pid {order_data.pid}"); }
                             if (!Reader.IsDBNull(1)) { order_data.patientSurname = Reader.GetString(1); }
                             if (!Reader.IsDBNull(2)) { order_data.patientName = Reader.GetString(2); }
                             if (!Reader.IsDBNull(3))
@@ -129,9 +149,10 @@ namespace OrthoVision
                     }
                     Reader.Close();
 
-                    // если шк есть, получаем тесты
+                    // если шк есть, получаем тесты, а по ним профили
                     if (RIDExists)
                     {
+                        logger.LogExchange($"if RIDExists {RIDExists}");
                         // в качестве задания нужно получить тесты которые не отвалидированы
                         // либо тесты с которых снята валидация (Reject) - b.bes_svarstat = 'U, 
                         // либо новые тесты (b.bes_svarstat IS NULL AND b.bes_antalomg = 0), зарегистрированные и без результата
@@ -167,10 +188,16 @@ namespace OrthoVision
 
                                     if (!String.IsNullOrEmpty(profileCode))
                                     {
+                                        logger.LogExchange($"Код теста {LISTestCode} преобразован в {profileCode}.");
+
                                         if (!profiles.Contains(profileCode))
                                         {
                                             profiles.Add(profileCode);
                                         }
+                                    }
+                                    else
+                                    {
+                                        logger.LogExchange($"Код теста {LISTestCode} не может быть преобразован. Сопоставление с профилем анализатора не настроено.");
                                     }
                                 }
                             }
@@ -182,16 +209,26 @@ namespace OrthoVision
                     Connection.Close();
                 }
 
-                // список с профилями не пустой, тогда нужно отправить задание
-                if(profiles.Count > 0)
+                // список с профилями не пустой и ШК существует, тогда нужно отправить задание
+                if((profiles.Count > 0)||RIDExists)
                 {
-                    
+                    logger.LogExchange($"Задание для анализатора получено из ЛИС.");
+
+                    string orderMsg = CreateOrderMessage(order_data);
+                    logger.LogExchange($"Сообщение с заданием сформировано: \r {orderMsg}");
+
+                    return orderMsg;
                 }
-                
+                else
+                {
+                    logger.LogExchange($"Задание для анализатора НЕ получено из ЛИС.");
+                    return null;
+                }
             }
             catch(Exception ex)
             {
-                logger.LogExchange($"Ошибка при получении заказа в ЛИС. \r {ex.ToString} ");
+                logger.LogExchange($"Ошибка при получении заказа в ЛИС. \r {ex.ToString()} ");
+                return null;
             }
         }
 

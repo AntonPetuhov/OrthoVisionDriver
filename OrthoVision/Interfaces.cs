@@ -11,11 +11,14 @@ namespace OrthoVision
     {
         //bool TryExtractFullFrame(byte[] buffer, int length, out byte[] rawFrame);
         bool TryExtractFullFrame(MemoryStream accumulator, out byte[] rawFrame);
+
         bool VerifyChecksum(byte[] rawFrame);
         byte CalculateChecksum(byte[] data, int start, int end);
-        byte[] BuildFrame(byte[] data); // для отправки ответов
-        bool IsControlByte(byte b);
-        string ControlByteToString(byte b);
+
+        //byte[] BuildFrame(byte[] data); // для отправки ответов
+
+        //bool IsControlByte(byte b);
+        //string ControlByteToString(byte b);
         bool IsHostQuery(string message);
         bool IsResultMessage(string message);
         string ExtractSampleId(string message);
@@ -35,9 +38,10 @@ namespace OrthoVision
     // Работа с БД
     public interface IDBProvider
     {
-        Task<OrderData> GetOrderForSampleAsync(string sampleId, CancellationToken cancellationToken);
-        string TranslateToAnalyzerCode(string lisTestCode);
+        //Task<OrderData> GetOrderForSampleAsync(string sampleId, CancellationToken cancellationToken);
+        string TranslateLISCodeToProfileCode(string lisTestCode);
         string TranslateToPSMCodes(string analyzerTestCode);
+        string GetRequestFromDB(string rid);
     }
 
     // Обработчик результатов (парсинг, создание выходных файлов)

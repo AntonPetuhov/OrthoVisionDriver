@@ -38,7 +38,7 @@ namespace OrthoVision
         /// Возвращает true и байты фрейма (включая STX, ETX и 2 байта контрольной суммы),
         /// и удаляет эти байты из накопителя.
         /// </summary>
-        private bool TryExtractFullFrame(MemoryStream accumulator, out byte[] frame)
+        public bool TryExtractFullFrame(MemoryStream accumulator, out byte[] frame)
         {
             frame = null;
             byte[] data = accumulator.ToArray(); // получаем все накопленные данные
@@ -95,7 +95,7 @@ namespace OrthoVision
         /// для передачи контрольной суммы выделен один байт (два hex-символа). Один байт может хранить значения только от 0 до 255.
         /// </summary>
         /// 
-        private bool VerifyChecksum(byte[] rawFrame)
+        public bool VerifyChecksum(byte[] rawFrame)
         {
             if (rawFrame.Length < 4) return false; // Кадр должен содержать хотя бы: STX + ETX + два символа контрольной суммы
             if (rawFrame[0] != STX) return false;  // Первый байт обязательно должен быть STX
@@ -187,14 +187,20 @@ namespace OrthoVision
         /// </summary>
         public string ExtractSampleId(string message)
         {
+            logger.LogExchange($"func extract {message}");
             // Пробуем найти Q запись
             //var qMatch = Regex.Match(message, @"^Q\|[^|]*\|([^|]*)", RegexOptions.Multiline);
             var qMatch = Regex.Match(message, @"Q\|[^|]*\|([^|]*)", RegexOptions.Multiline);
+            //var qMatch = Regex.Match(message, @"Q\\|[^|]*\\|\\^?(\\d+)", RegexOptions.Multiline); // здесь отмекаем
+
+            logger.LogExchange($"qMatch.Success: {qMatch.Success}");
+
             if (qMatch.Success)
             {
                 string specimenId = qMatch.Groups[1].Value;
                 // Может содержать компоненты через ^, берём первый
-                return specimenId.Split('^')[0];
+                //return specimenId.Split('^')[0];
+                return specimenId.Split('^')[1];
             }
 
             // Иначе ищем O запись

@@ -230,12 +230,85 @@ namespace OrthoVision
 
                 if (!string.IsNullOrEmpty(response))
                 {
-                    // отправляем задание анализатору
+                    try
+                    {
+                        // отправляем задание анализатору
+                        // Отправляем ENQ и ждём ACK
+                        await SendControlCharAsync(stream, ACK, linkedCts.Token);
+                        logger.LogExchange("Отправлен ENQ");
 
+                        byte[] ack = new byte[1];
+                        if (await ReadBytesAsync(stream, ack, ct) == 0 || ack[0] != 0x06)
+                            throw new InvalidOperationException("Не получен ACK на ENQ");
+                        logger.LogExchange("Получен ACK");
+
+                        string order_ = "\0x02" + response + "\0x03";
+                        // 2. Преобразуем строку в байтовый массив (обычно ASCII).
+                        byte[] data = Encoding.ASCII.GetBytes(order_);
+
+                        // Берём байты с индекса 1 (сразу после STX) до индекса etxPos (включая сам ETX) и выполняем над ними операцию сложения
+                        byte calculatedChecksum = protocolParser.CalculateChecksum(data, 1, data.Length); // от после STX до ETX включительно
+
+                        List<byte> list = new List<byte>();
+                        list.AddRange(data);
+                        list.Add(calculatedChecksum);
+                        list.Add(CR);
+                        list.Add(LF);
+
+                        byte[] data_order = list.ToArray();
+
+                        // 4. Отправляем данные (синхронно).
+                        stream.Write(data, 0, data.Length);
+
+                        logger.LogExchange($"Задание отправлено анализатору. Длина: {data.Length} байт.");
+
+                    }
+                    catch (Exception ex) 
+                    {
+                        logger.LogExchange($"Ошибка при отправке задания по TCP: {ex.Message}");
+                    }
 
                 }
             }
         }
+
+        // Вспомогательные методы для работы с потоком
+        private async Task<int> ReadBytesAsync(NetworkStream stream, byte[] buffer, CancellationToken token)
+        {
+            int offset = 0;
+            while (offset < buffer.Length)
+            {
+                int received = await stream.ReadAsync(buffer, offset, buffer.Length - offset, token);
+                if (received == 0) return offset;
+                offset += received;
+            }
+            return offset;
+        }
+
+        private async Task<byte> ReadByteAsync(NetworkStream stream, CancellationToken token)
+        {
+            byte[] b = new byte[1];
+            await ReadBytesAsync(stream, b, token);
+            return b[0];
+        }
+
+        /*
+        // отправка задания
+        private async Task SendOrderToAnalyzerAsync(NetworkStream stream, string order)
+        {
+            try
+            {
+                // Отправляем ENQ и ждём ACK
+                await stream.WriteAsync(new byte[] { 0x05 }, 0, 1, token);
+                Console.WriteLine("Отправлен ENQ");
+            }
+            catch(Exception ex)
+            {
+
+            }
+
+        }
+        */
 
         /// <summary>
         /// Обработка полного ASTM-сообщения (от H до L).
@@ -247,13 +320,15 @@ namespace OrthoVision
             // Определяем тип сообщения
             if (protocolParser.IsHostQuery(message))
             {
+                logger.LogExchange($"message: {message} ");
                 // Это запрос заказов (Host Query) - формируем ответ с заказами
                 //logger.LogExchange("Получен запрос задания анализатором.");
                 string sampleId = protocolParser.ExtractSampleId(message);
                 logger.LogExchange($"Получен запрос задания для образца: {sampleId}");
 
                 //GetRequestFromDB(sampleId); // сделать асинхронным?
-                dbProvider.
+                string order = dbProvider.GetRequestFromDB(sampleId);
+                return order;
             }
             else if (protocolParser.IsResultMessage(message))
             {
@@ -358,7 +433,7 @@ namespace OrthoVision
                 Directory.CreateDirectory(analyzerResultPath);
             }
             DateTime now = DateTime.Now;
-            string filename = analyzerResultPath + "\\Results_" + ExtractSampleId(AllMessagePar) + "_" + now.Year + CheckZero(now.Month) + CheckZero(now.Day) + CheckZero(now.Hour) + CheckZero(now.Minute) + CheckZero(now.Second) + CheckZero(now.Millisecond) + ".res";
+            string filename = analyzerResultPath + "\\Results_" + protocolParser.ExtractSampleId(AllMessagePar) + "_" + now.Year + CheckZero(now.Month) + CheckZero(now.Day) + CheckZero(now.Hour) + CheckZero(now.Minute) + CheckZero(now.Second) + CheckZero(now.Millisecond) + ".res";
             using (System.IO.FileStream fs = new System.IO.FileStream(filename, FileMode.OpenOrCreate))
             {
                 foreach (string res in AllMessagePar.Split('\r'))
@@ -416,5 +491,20 @@ namespace OrthoVision
             }
         }
         #endregion
+
+        // Остановка работы анализатора
+        //public async Task StopCommunicationAsync()
+        public Task StopCommunicationAsync()
+        {
+            cts?.Cancel();
+            logger.LogTcp("TCP сервер остановлен");
+
+            return Task.CompletedTask; // возвращаем завершенный объект Task
+        }
+
+        public void Dispose()
+        {
+            cts?.Dispose();
+        }
     }
 }

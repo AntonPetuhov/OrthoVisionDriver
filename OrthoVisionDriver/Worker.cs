@@ -31,6 +31,9 @@ namespace OrthoVisionDriver
 
                 analyzerSettings = GetSettingsFromJson(configPath);
 
+                Console.WriteLine(analyzerSettings.analyzerName);
+                Console.WriteLine(analyzerSettings.connectionString);
+
                 // создаем объект анализатора и запускаем его
                 Analyzer analyzerToRun = analyzerManager.CreateAnalyzer(analyzerSettings);
 
