@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OrthoVision")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06c2f1d8182c57f44b04ece1def294071f4c3c3f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8da0231970d02771ecec7666582aea2c3f49aa87")]
 [assembly: System.Reflection.AssemblyProductAttribute("OrthoVision")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OrthoVision")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

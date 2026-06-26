@@ -41,7 +41,10 @@ namespace OrthoVision
         //Task<OrderData> GetOrderForSampleAsync(string sampleId, CancellationToken cancellationToken);
         string TranslateLISCodeToProfileCode(string lisTestCode);
         string TranslateToPSMCodes(string analyzerTestCode);
-        string GetRequestFromDB(string rid);
+
+        //string GetRequestFromDB(string rid);
+        OrderData GetRequestFromDB(string rid);
+
     }
 
     // Обработчик результатов (парсинг, создание выходных файлов)

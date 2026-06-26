@@ -28,11 +28,7 @@ namespace OrthoVisionDriver
 
                 // чтение настроек анализатора из json
                 string configPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "OrthoVisionSettings.json");
-
                 analyzerSettings = GetSettingsFromJson(configPath);
-
-                Console.WriteLine(analyzerSettings.analyzerName);
-                Console.WriteLine(analyzerSettings.connectionString);
 
                 // создаем объект анализатора и запускаем его
                 Analyzer analyzerToRun = analyzerManager.CreateAnalyzer(analyzerSettings);

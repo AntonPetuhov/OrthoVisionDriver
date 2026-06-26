@@ -155,7 +155,7 @@ namespace OrthoVisionDriver
             {
                 while (!ct.IsCancellationRequested)
                 {
-                    await Task.Delay(10000, ct);
+                    await Task.Delay(20000, ct);
                     // для проверки, выполняется ли сейчас Task
                     // true только если communicationTask не null и его свойство IsCompleted == false 
                     // (т.е. задача ещё не завершена: не выполнена, не отменена, не упала с ошибкой)

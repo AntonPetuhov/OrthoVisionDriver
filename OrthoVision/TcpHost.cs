@@ -41,8 +41,9 @@ namespace OrthoVision
         public void Stop()
         {
             listener?.Stop();
+            logger.LogTcp("TcpListener остановлен. Новые подключения не принимаются.");
             isStarted = false;
-            logger.LogTcp("TCP сервер остановлен");
+            logger.LogTcp("TCP сервер полностью остановлен.");
         }
 
         public void Dispose() 

@@ -10,7 +10,7 @@
   "WorkStatus": true,
   "ResultHandlerStatus": true,
   "OutputFolder": "E:\\Services\\FileGetterService\\Exchange",
-  "ConnnectionString": "Server=CGM-APP11\\SQLCGMAPP11;Database=KDLPROD;MultipleActiveResultSets=true;TrustServerCertificate=True;",
+  "ConnectionString": "Server=CGM-APP11\\SQLCGMAPP11;Database=KDLPROD;MultipleActiveResultSets=true;TrustServerCertificate=True;",
   "AnalyzerCode": "914",
   "AnalyzerConfigurationCode": "ORTHOVSN"
 }

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OrthoVisionDriver")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06c2f1d8182c57f44b04ece1def294071f4c3c3f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8da0231970d02771ecec7666582aea2c3f49aa87")]
 [assembly: System.Reflection.AssemblyProductAttribute("OrthoVisionDriver")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OrthoVisionDriver")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
